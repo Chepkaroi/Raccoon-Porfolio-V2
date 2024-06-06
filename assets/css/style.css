@@ -335,3 +335,226 @@ header {
         right: 20px;
     }
 }
+
+.Contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    margin: 20px;
+
+}
+.Contact h1{
+    font-size: 50px;
+}
+.Contact h2{
+    margin: 10px;
+}
+iframe{
+    border: solid 1px black;
+    border-radius: 20px;
+    margin: 40px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+textarea{
+    width: 400px;
+    padding: 30px 20px;
+    margin-top: 10px;
+    border: solid 1px black;
+    border-radius: 10px;
+
+}
+.Contact button{
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px black;
+    font-size: 16px;
+    background-color: white;
+}
+
+.Contact button:hover{
+    background-color: rgb(223, 223, 223);
+}
+@media (max-width: 768px){
+    input, textarea{
+        width: 300px;
+    }
+    .Contact{
+        margin-top: 80px;
+    }
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
+    .Contact h1{
+        font-size: 30px;
+    }
+    .Contact h2{
+        font-size: 20px;
+    }
+
+    .me{
+        display: flex;
+        flex-direction: column;
+    }
+    .me img{
+        width: 300px;
+    }
+    .about .bit{
+        width: 300px;
+        margin: 20px;
+    }
+    .education{
+        flex-direction: column;
+    }
+  
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about .bit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    width: 500px;
+}
+.me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.me img{
+    width: 330px;
+    border-radius: 20px;
+}
+.about button{
+    padding: 10px 20px;
+    margin: 40px 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+.about button:hover{
+    background-color: rgb(223, 223, 223);
+}
+.about button a{
+    text-decoration: none;
+    color: black;
+}
+.about.content{
+    margin: 20px;
+}
+
+
+.education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.education img{
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    margin: 20px;
+}
+.content{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.range{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+}
+
+.java{
+    background-color: rgb(77, 76, 76);
+    width: 40%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 4px;
+    color: rgb(211, 210, 210);
+}
+
+.js{
+    background-color: rgb(112, 111, 111);
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 4px;
+    color: rgb(192, 190, 190);
+}
+
+.css{
+    background-color: rgb(165, 164, 164);
+    width: 60%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.html{
+    background-color: rgb(192, 190, 190);
+    width: 70%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: black;
+    padding: 4px;
+}
+
+.comm{
+    background-color: rgb(211, 210, 210);
+    width: 80%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: black;
+    padding: 4px;
+}
